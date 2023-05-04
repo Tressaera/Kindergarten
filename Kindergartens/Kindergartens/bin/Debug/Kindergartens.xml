@@ -1,0 +1,1101 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Kindergartens
+</name>
+</assembly>
+<members>
+<member name="T:Kindergartens.My.Resources.Resources">
+<summary>
+  Yerelleştirilmiş dizeleri aramak gibi işlemler için, türü kesin olarak belirtilmiş kaynak sınıfı.
+</summary>
+</member>
+<member name="P:Kindergartens.My.Resources.Resources.ResourceManager">
+<summary>
+  Bu sınıf tarafından kullanılan, önbelleğe alınmış ResourceManager örneğini döndürür.
+</summary>
+</member>
+<member name="P:Kindergartens.My.Resources.Resources.Culture">
+<summary>
+  Tümü için geçerli iş parçacığının CurrentUICulture özelliğini geçersiz kular
+  CurrentUICulture özelliğini tüm kaynak aramaları için geçersiz kılar.
+</summary>
+</member>
+<member name="P:Kindergartens.My.Resources.Resources._loop">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Kindergartens.My.Resources.Resources.bill">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Kindergartens.My.Resources.Resources.billing">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Kindergartens.My.Resources.Resources.camera">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Kindergartens.My.Resources.Resources.eat">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Kindergartens.My.Resources.Resources.family">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Kindergartens.My.Resources.Resources.insert__2_">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Kindergartens.My.Resources.Resources.inspection">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Kindergartens.My.Resources.Resources.lesson">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Kindergartens.My.Resources.Resources.money">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Kindergartens.My.Resources.Resources.pill">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Kindergartens.My.Resources.Resources.protest">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Kindergartens.My.Resources.Resources.search">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Kindergartens.My.Resources.Resources.search1">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Kindergartens.My.Resources.Resources.signs">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Kindergartens.My.Resources.Resources.teacher__1_">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Kindergartens.My.Resources.Resources.trash">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Kindergartens.My.Resources.Resources.trash1">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Kindergartens.My.Resources.Resources.update">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Kindergartens.My.Resources.Resources.zumba">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet.SinifDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet.SinifRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet.SinifRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSetTableAdapters.SinifTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Kindergartens.AnaokuludbDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Kindergartens.AnaokuludbDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Kindergartens.AnaokuludbDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSetTableAdapters.TableAdapterManager.UpdateAll(Kindergartens.AnaokuludbDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet1.SinifDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet1.SinifRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet1.SinifRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet1TableAdapters.SinifTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Kindergartens.AnaokuludbDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Kindergartens.AnaokuludbDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Kindergartens.AnaokuludbDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet1TableAdapters.TableAdapterManager.UpdateAll(Kindergartens.AnaokuludbDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet10">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet10.OgretmenDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet10.OgretmenRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet10.OgretmenRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet10TableAdapters.OgretmenTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet10TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet10TableAdapters.TableAdapterManager.UpdateUpdatedRows(Kindergartens.AnaokuludbDataSet10,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet10TableAdapters.TableAdapterManager.UpdateInsertedRows(Kindergartens.AnaokuludbDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet10TableAdapters.TableAdapterManager.UpdateDeletedRows(Kindergartens.AnaokuludbDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet10TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet10TableAdapters.TableAdapterManager.UpdateAll(Kindergartens.AnaokuludbDataSet10)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet10TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet10TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet11">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet11.OgrenciDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet11.OgrenciRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet11.OgrenciRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet11TableAdapters.OgrenciTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet11TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet11TableAdapters.TableAdapterManager.UpdateUpdatedRows(Kindergartens.AnaokuludbDataSet11,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet11TableAdapters.TableAdapterManager.UpdateInsertedRows(Kindergartens.AnaokuludbDataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet11TableAdapters.TableAdapterManager.UpdateDeletedRows(Kindergartens.AnaokuludbDataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet11TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet11TableAdapters.TableAdapterManager.UpdateAll(Kindergartens.AnaokuludbDataSet11)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet11TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet11TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet12">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet12.SinifDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet12.SinifRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet12.SinifRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet12TableAdapters.SinifTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet12TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet12TableAdapters.TableAdapterManager.UpdateUpdatedRows(Kindergartens.AnaokuludbDataSet12,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet12TableAdapters.TableAdapterManager.UpdateInsertedRows(Kindergartens.AnaokuludbDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet12TableAdapters.TableAdapterManager.UpdateDeletedRows(Kindergartens.AnaokuludbDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet12TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet12TableAdapters.TableAdapterManager.UpdateAll(Kindergartens.AnaokuludbDataSet12)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet12TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet12TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet13">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet13.SinifDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet13.SinifRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet13.SinifRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet13TableAdapters.SinifTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet13TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet13TableAdapters.TableAdapterManager.UpdateUpdatedRows(Kindergartens.AnaokuludbDataSet13,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet13TableAdapters.TableAdapterManager.UpdateInsertedRows(Kindergartens.AnaokuludbDataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet13TableAdapters.TableAdapterManager.UpdateDeletedRows(Kindergartens.AnaokuludbDataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet13TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet13TableAdapters.TableAdapterManager.UpdateAll(Kindergartens.AnaokuludbDataSet13)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet13TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet13TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet14">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet14.VeliDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet14.VeliRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet14.VeliRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet14TableAdapters.VeliTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet14TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet14TableAdapters.TableAdapterManager.UpdateUpdatedRows(Kindergartens.AnaokuludbDataSet14,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet14TableAdapters.TableAdapterManager.UpdateInsertedRows(Kindergartens.AnaokuludbDataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet14TableAdapters.TableAdapterManager.UpdateDeletedRows(Kindergartens.AnaokuludbDataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet14TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet14TableAdapters.TableAdapterManager.UpdateAll(Kindergartens.AnaokuludbDataSet14)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet14TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet14TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet2.SinifDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet2.SinifRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet2.SinifRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet2TableAdapters.SinifTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Kindergartens.AnaokuludbDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Kindergartens.AnaokuludbDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Kindergartens.AnaokuludbDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet2TableAdapters.TableAdapterManager.UpdateAll(Kindergartens.AnaokuludbDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet3.OgrenciDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet3.OgrenciRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet3.OgrenciRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet3TableAdapters.OgrenciTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Kindergartens.AnaokuludbDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(Kindergartens.AnaokuludbDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(Kindergartens.AnaokuludbDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet3TableAdapters.TableAdapterManager.UpdateAll(Kindergartens.AnaokuludbDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet4.OgrenciDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet4.OgrenciRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet4.OgrenciRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet4TableAdapters.OgrenciTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(Kindergartens.AnaokuludbDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(Kindergartens.AnaokuludbDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(Kindergartens.AnaokuludbDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet4TableAdapters.TableAdapterManager.UpdateAll(Kindergartens.AnaokuludbDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet5.OgrenciDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet5.OgrenciRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet5.OgrenciRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet5TableAdapters.OgrenciTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(Kindergartens.AnaokuludbDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(Kindergartens.AnaokuludbDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(Kindergartens.AnaokuludbDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet5TableAdapters.TableAdapterManager.UpdateAll(Kindergartens.AnaokuludbDataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet6.OgretmenDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet6.OgretmenRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet6.OgretmenRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet6TableAdapters.OgretmenTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet6TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(Kindergartens.AnaokuludbDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(Kindergartens.AnaokuludbDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(Kindergartens.AnaokuludbDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet6TableAdapters.TableAdapterManager.UpdateAll(Kindergartens.AnaokuludbDataSet6)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet7">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet7.SinifDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet7.SinifRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet7.SinifRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet7TableAdapters.SinifTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet7TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(Kindergartens.AnaokuludbDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(Kindergartens.AnaokuludbDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(Kindergartens.AnaokuludbDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet7TableAdapters.TableAdapterManager.UpdateAll(Kindergartens.AnaokuludbDataSet7)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet8">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet8.OgrenciDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet8.OgrenciRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet8.OgrenciRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet8TableAdapters.OgrenciTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet8TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(Kindergartens.AnaokuludbDataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(Kindergartens.AnaokuludbDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(Kindergartens.AnaokuludbDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet8TableAdapters.TableAdapterManager.UpdateAll(Kindergartens.AnaokuludbDataSet8)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet9">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet9.VeliDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet9.VeliRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet9.VeliRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet9TableAdapters.VeliTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet9TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet9TableAdapters.TableAdapterManager.UpdateUpdatedRows(Kindergartens.AnaokuludbDataSet9,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet9TableAdapters.TableAdapterManager.UpdateInsertedRows(Kindergartens.AnaokuludbDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet9TableAdapters.TableAdapterManager.UpdateDeletedRows(Kindergartens.AnaokuludbDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet9TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Kindergartens.AnaokuludbDataSet9TableAdapters.TableAdapterManager.UpdateAll(Kindergartens.AnaokuludbDataSet9)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet9TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Kindergartens.AnaokuludbDataSet9TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

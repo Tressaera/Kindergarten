@@ -1,0 +1,757 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{44F61D16-3066-4805-823E-0B8E443481ED}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Kindergartens.My.MyApplication</StartupObject>
+    <RootNamespace>Kindergartens</RootNamespace>
+    <AssemblyName>Kindergartens</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Kindergartens.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Kindergartens.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnaokuludbDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnaokuludbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AnaokuludbDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnaokuludbDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AnaokuludbDataSet10.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnaokuludbDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AnaokuludbDataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnaokuludbDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AnaokuludbDataSet12.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnaokuludbDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AnaokuludbDataSet13.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnaokuludbDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AnaokuludbDataSet14.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnaokuludbDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AnaokuludbDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnaokuludbDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AnaokuludbDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnaokuludbDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AnaokuludbDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnaokuludbDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AnaokuludbDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnaokuludbDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AnaokuludbDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnaokuludbDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AnaokuludbDataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnaokuludbDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AnaokuludbDataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnaokuludbDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AnaokuludbDataSet9.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnaokuludbDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAidat.Designer.vb">
+      <DependentUpon>FrmAidat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAidat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDers.Designer.vb">
+      <DependentUpon>FrmDers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDersProgrami.Designer.vb">
+      <DependentUpon>FrmDersProgrami.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDersProgrami.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDuyuru.Designer.vb">
+      <DependentUpon>FrmDuyuru.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDuyuru.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEtkinlik.Designer.vb">
+      <DependentUpon>FrmEtkinlik.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEtkinlik.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGaleri.Designer.vb">
+      <DependentUpon>FrmGaleri.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGaleri.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGelirGider.Designer.vb">
+      <DependentUpon>FrmGelirGider.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGelirGider.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGiris.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGiris.Designer.vb">
+      <DependentUpon>FrmGiris.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmilac.Designer.vb">
+      <DependentUpon>Frmilac.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frmilac.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOgrenci.Designer.vb">
+      <DependentUpon>FrmOgrenci.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOgrenci.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOgretmen.Designer.vb">
+      <DependentUpon>FrmOgretmen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOgretmen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOgretmenGaleri.Designer.vb">
+      <DependentUpon>FrmOgretmenGaleri.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOgretmenGaleri.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOgretmenOgrenciİslem.Designer.vb">
+      <DependentUpon>FrmOgretmenOgrenciİslem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOgretmenOgrenciİslem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOgretmenPanel.Designer.vb">
+      <DependentUpon>FrmOgretmenPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOgretmenPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOgretmenVeliislem.Designer.vb">
+      <DependentUpon>FrmOgretmenVeliislem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOgretmenVeliislem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOgretmenYemekBildirimi.Designer.vb">
+      <DependentUpon>FrmOgretmenYemekBildirimi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOgretmenYemekBildirimi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOgretmenYoklama.Designer.vb">
+      <DependentUpon>FrmOgretmenYoklama.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOgretmenYoklama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOgretmenİlacBildirimi.Designer.vb">
+      <DependentUpon>FrmOgretmenİlacBildirimi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOgretmenİlacBildirimi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOgretmenİlacİslem.Designer.vb">
+      <DependentUpon>FrmOgretmenİlacİslem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOgretmenİlacİslem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSinifBilgileri.Designer.vb">
+      <DependentUpon>FrmSinifBilgileri.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSinifBilgileri.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVeli.Designer.vb">
+      <DependentUpon>FrmVeli.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVeli.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVeliDers.Designer.vb">
+      <DependentUpon>FrmVeliDers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVeliDers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVeliDersProgramı.Designer.vb">
+      <DependentUpon>FrmVeliDersProgramı.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVeliDersProgramı.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVeliDuyuru.Designer.vb">
+      <DependentUpon>FrmVeliDuyuru.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVeliDuyuru.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVeliEtkinlik.Designer.vb">
+      <DependentUpon>FrmVeliEtkinlik.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVeliEtkinlik.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVeliGaleri.Designer.vb">
+      <DependentUpon>FrmVeliGaleri.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVeliGaleri.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVeliPanel.Designer.vb">
+      <DependentUpon>FrmVeliPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVeliPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVeliYemekBildirim.Designer.vb">
+      <DependentUpon>FrmVeliYemekBildirim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVeliYemekBildirim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVeliYemekListesi.Designer.vb">
+      <DependentUpon>FrmVeliYemekListesi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVeliYemekListesi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVeliYoklama.Designer.vb">
+      <DependentUpon>FrmVeliYoklama.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVeliYoklama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVeliÖdemeler.Designer.vb">
+      <DependentUpon>FrmVeliÖdemeler.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVeliÖdemeler.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVeliİlac.Designer.vb">
+      <DependentUpon>FrmVeliİlac.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVeliİlac.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVeliİlacBildirimi.Designer.vb">
+      <DependentUpon>FrmVeliİlacBildirimi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVeliİlacBildirimi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmYemekListesi.Designer.vb">
+      <DependentUpon>FrmYemekListesi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmYemekListesi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmYoklamaListesi.Designer.vb">
+      <DependentUpon>FrmYoklamaListesi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmYoklamaListesi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmYönetici.Designer.vb">
+      <DependentUpon>FrmYönetici.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmYönetici.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Siniflar\Aidat.vb" />
+    <Compile Include="Siniflar\Baglanti.vb" />
+    <Compile Include="Siniflar\Ders.vb" />
+    <Compile Include="Siniflar\DersProgrami.vb" />
+    <Compile Include="Siniflar\Duyuru.vb" />
+    <Compile Include="Siniflar\Etkinlik.vb" />
+    <Compile Include="Siniflar\Galeri.vb" />
+    <Compile Include="Siniflar\GelirGider.vb" />
+    <Compile Include="Siniflar\Ogrenci.vb" />
+    <Compile Include="Siniflar\Ogretmen.vb" />
+    <Compile Include="Siniflar\Sinif.vb" />
+    <Compile Include="Siniflar\Veli.vb" />
+    <Compile Include="Siniflar\YemekBildirimi.vb" />
+    <Compile Include="Siniflar\YemekListesi.vb" />
+    <Compile Include="Siniflar\Yoklama.vb" />
+    <Compile Include="Siniflar\Yonetici.vb" />
+    <Compile Include="Siniflar\İlac.vb" />
+    <Compile Include="Siniflar\İlacBildirim.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmAidat.resx">
+      <DependentUpon>FrmAidat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDers.resx">
+      <DependentUpon>FrmDers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDersProgrami.resx">
+      <DependentUpon>FrmDersProgrami.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDuyuru.resx">
+      <DependentUpon>FrmDuyuru.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEtkinlik.resx">
+      <DependentUpon>FrmEtkinlik.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGaleri.resx">
+      <DependentUpon>FrmGaleri.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGelirGider.resx">
+      <DependentUpon>FrmGelirGider.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGiris.resx">
+      <DependentUpon>FrmGiris.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmilac.resx">
+      <DependentUpon>Frmilac.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOgrenci.resx">
+      <DependentUpon>FrmOgrenci.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOgretmen.resx">
+      <DependentUpon>FrmOgretmen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOgretmenGaleri.resx">
+      <DependentUpon>FrmOgretmenGaleri.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOgretmenOgrenciİslem.resx">
+      <DependentUpon>FrmOgretmenOgrenciİslem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOgretmenPanel.resx">
+      <DependentUpon>FrmOgretmenPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOgretmenVeliislem.resx">
+      <DependentUpon>FrmOgretmenVeliislem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOgretmenYemekBildirimi.resx">
+      <DependentUpon>FrmOgretmenYemekBildirimi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOgretmenYoklama.resx">
+      <DependentUpon>FrmOgretmenYoklama.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOgretmenİlacBildirimi.resx">
+      <DependentUpon>FrmOgretmenİlacBildirimi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOgretmenİlacİslem.resx">
+      <DependentUpon>FrmOgretmenİlacİslem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSinifBilgileri.resx">
+      <DependentUpon>FrmSinifBilgileri.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVeli.resx">
+      <DependentUpon>FrmVeli.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVeliDers.resx">
+      <DependentUpon>FrmVeliDers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVeliDersProgramı.resx">
+      <DependentUpon>FrmVeliDersProgramı.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVeliDuyuru.resx">
+      <DependentUpon>FrmVeliDuyuru.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVeliEtkinlik.resx">
+      <DependentUpon>FrmVeliEtkinlik.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVeliGaleri.resx">
+      <DependentUpon>FrmVeliGaleri.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVeliPanel.resx">
+      <DependentUpon>FrmVeliPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVeliYemekBildirim.resx">
+      <DependentUpon>FrmVeliYemekBildirim.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVeliYemekListesi.resx">
+      <DependentUpon>FrmVeliYemekListesi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVeliYoklama.resx">
+      <DependentUpon>FrmVeliYoklama.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVeliÖdemeler.resx">
+      <DependentUpon>FrmVeliÖdemeler.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVeliİlac.resx">
+      <DependentUpon>FrmVeliİlac.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVeliİlacBildirimi.resx">
+      <DependentUpon>FrmVeliİlacBildirimi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmYemekListesi.resx">
+      <DependentUpon>FrmYemekListesi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmYoklamaListesi.resx">
+      <DependentUpon>FrmYoklamaListesi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmYönetici.resx">
+      <DependentUpon>FrmYönetici.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AnaokuludbDataSet.xsc">
+      <DependentUpon>AnaokuludbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AnaokuludbDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AnaokuludbDataSet.xss">
+      <DependentUpon>AnaokuludbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet1.xsc">
+      <DependentUpon>AnaokuludbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AnaokuludbDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AnaokuludbDataSet1.xss">
+      <DependentUpon>AnaokuludbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet10.xsc">
+      <DependentUpon>AnaokuludbDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AnaokuludbDataSet10.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AnaokuludbDataSet10.xss">
+      <DependentUpon>AnaokuludbDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet11.xsc">
+      <DependentUpon>AnaokuludbDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AnaokuludbDataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AnaokuludbDataSet11.xss">
+      <DependentUpon>AnaokuludbDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet12.xsc">
+      <DependentUpon>AnaokuludbDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AnaokuludbDataSet12.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AnaokuludbDataSet12.xss">
+      <DependentUpon>AnaokuludbDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet13.xsc">
+      <DependentUpon>AnaokuludbDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AnaokuludbDataSet13.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AnaokuludbDataSet13.xss">
+      <DependentUpon>AnaokuludbDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet14.xsc">
+      <DependentUpon>AnaokuludbDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AnaokuludbDataSet14.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AnaokuludbDataSet14.xss">
+      <DependentUpon>AnaokuludbDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet2.xsc">
+      <DependentUpon>AnaokuludbDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AnaokuludbDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AnaokuludbDataSet2.xss">
+      <DependentUpon>AnaokuludbDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet3.xsc">
+      <DependentUpon>AnaokuludbDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AnaokuludbDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AnaokuludbDataSet3.xss">
+      <DependentUpon>AnaokuludbDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet4.xsc">
+      <DependentUpon>AnaokuludbDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AnaokuludbDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AnaokuludbDataSet4.xss">
+      <DependentUpon>AnaokuludbDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet5.xsc">
+      <DependentUpon>AnaokuludbDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AnaokuludbDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AnaokuludbDataSet5.xss">
+      <DependentUpon>AnaokuludbDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet6.xsc">
+      <DependentUpon>AnaokuludbDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AnaokuludbDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AnaokuludbDataSet6.xss">
+      <DependentUpon>AnaokuludbDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet7.xsc">
+      <DependentUpon>AnaokuludbDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AnaokuludbDataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AnaokuludbDataSet7.xss">
+      <DependentUpon>AnaokuludbDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet8.xsc">
+      <DependentUpon>AnaokuludbDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AnaokuludbDataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AnaokuludbDataSet8.xss">
+      <DependentUpon>AnaokuludbDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet9.xsc">
+      <DependentUpon>AnaokuludbDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="AnaokuludbDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AnaokuludbDataSet9.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AnaokuludbDataSet9.xss">
+      <DependentUpon>AnaokuludbDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insert %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loop1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signs1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\family1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teacher %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lesson1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\protest2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zumba1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eat2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pill1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inspection1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\billing1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bill1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
