@@ -1,1 +1,1 @@
-# Kindergarten
+Class yapısı ile dml komutu uygulandı ve form'un kod kısmında classları getirerek daha pratik yazmamızı sağladı. 3 farklı giriş yapılmaktadır(Öğretmen, Veli, Öğrenci) olarak ve buradaki dikey menü ile gireceğimiz sayfalara yönlendirir. 
